@@ -23,7 +23,7 @@ spec:
         image: sureshdev.jfrog.io/deploy-docker-local/repo:latest
         resources:
           limits:
-            memory: "800Mi"
+            memory: "700Mi"
             cpu: "800m"
           requests: 
             memory: "150Mi"
