@@ -20,13 +20,13 @@ spec:
       containers:
       - name: petclinic
         # Run this image
-        image: shaikkhajaibrahim/workshop-petclinic
+        image: sureshdev.jfrog.io/deploy-docker-local/repo:latest
         resources:
           limits:
-            memory: "1024Mi"
-            cpu: "1000m"
+            memory: "800Mi"
+            cpu: "800m"
           requests: 
-            memory: "256Mi"
+            memory: "150Mi"
             cpu: "250m"
         livenessProbe:
           httpGet:
